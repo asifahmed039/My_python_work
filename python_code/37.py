@@ -19,3 +19,9 @@ class Student:
 #Creating object (instance)
 s1=Student()
 print(s1.name)
+
+class car:
+    color="red"
+    brand="mercedes"
+c1=car()
+print(c1.brand)
