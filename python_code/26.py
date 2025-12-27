@@ -26,12 +26,12 @@ range(5)   # also correct
 for el in seq:
     print(el)
 
-for i in range(2,10)
+for i in range(2,10):
     print(i)
 #odd number
-for i in range(1,10,2)
+for i in range(1,10,2):
     print(i)
 #even number
-for i in range(2,10,2)
+for i in range(2,10,2):
     print(i)
 
