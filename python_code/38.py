@@ -1,8 +1,20 @@
-#
+#__init__ function
+#constructor in python
+"""
+   constructor:---
+        All classes have a function called __init__, which is always executed when the object is 
+        being initiated.
 
+        #creating class                                            #creating object
+            class student:                                             s1=student("karan")
+                def __init__(self,full_nmae):                          print(s1.name)
+                    self.name=fullname
 
-
-
+    Self:--
+        The self parameter is a reference to the current instance of the class and is used to access 
+        variables that belongs to the class.
+            
+"""
 
 class student:
     #default constructors
