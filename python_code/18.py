@@ -17,7 +17,7 @@ print(len(collection)) #its give 5 repetition items count only once.
 queue={}  #empty dictionary notation
 demo=set()   #empty set
 # list=[]
-# print("enter no:")
+# print("enter no:") 
 # for i in range(0,4,1):
 #     list.append(int(input()))
 # print(list)
@@ -67,5 +67,10 @@ print(set1)
 print(set2)
 #intersection
 print(set1.intersection(set2)) #{3}
+
+
+
+
+
 
 
