@@ -27,9 +27,12 @@ print(tup[1:4])   #slicing allowed in tuple
 """
 tup=(2,1,3,1)
 
-tup.index(el)  #returns indes of first occurrence  tup.index(1) is 1
-02)tup.count(el) #counts total occurrences  tup.count(1) is 2"""
+01)tup.index(el)  #returns indes of first occurrence  tup.index(1) is 1
+02)tup.count(el) #counts total occurrences  tup.count(1) is 2
 
+"""
+tuple 
 tup2=(1,2,3,4)
 print(tup.count(2))
 print(tup2.index(3))
+
