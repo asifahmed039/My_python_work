@@ -22,9 +22,24 @@ print(tax)"""
 
 # #os function
 # os.remove("first.txt")
-set={1,2,3,4,5,5,6,6}
+# set={1,2,3,4,5,5,6,6}
 # print(len(set))
-set.pop()
-print(set)
-set.add(200)
-print(set)
+# set.pop()
+# print(set)
+# set.add(200)
+# print(set)
+
+class student:
+    college_name="gobal institute of engineering and technology"
+    def __init__(self):
+        pass
+    def gets_marks(self):
+        print("marks:",self.mark)
+
+    def input_marks(self,marks):
+        self.mark=marks
+
+
+s1=student()
+s1.input_marks(95)
+print(s1.gets_marks())
