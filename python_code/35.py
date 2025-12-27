@@ -18,10 +18,28 @@ with open("practice.txt","w") as f:
     f.write(new_data)
 
 #search if the word "learning" exists in the file or not.
-word="Learning"
-with open("practice.txt","r") as f:
-    data=f.read()
-    if(data.find(word)!=-1):
-        print("found")
-    else:
-        print("not found")
+def chect_for_word(x):
+    word=x
+    with open("practice.txt","r") as f:
+        data=f.read()
+        if(word in data):   # or if(data.find(word)!=-1):
+            print("found")
+        else:
+            print("not found")
+
+chect_for_word("learning")
+
+def check_for_line(x):
+    word=x
+    data=True
+    line_no=1
+    with open("practice.txt","r") as f:
+        while data:
+            data=f.readline()
+            if(word in data):
+                print(line_no)
+                return
+            line_no +=1
+    return -1
+
+check_for_line("learning")
