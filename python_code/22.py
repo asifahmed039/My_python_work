@@ -24,7 +24,7 @@ i=0
 lis=(1,4,9,16,25,36,49,64,81,100)
 x=100
 while i<len(lis) :
-    if(lis[i]==x):
+    if(lis[i]==x):  #******x==list[i]  
         print(i)
     i+=1
 if(i==len(list)):
