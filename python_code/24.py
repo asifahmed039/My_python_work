@@ -2,7 +2,7 @@
 """
 Loop are used for sequential traversal. For traversing list,string,tuples etc.
 
-for loops
+for loops        linear search
 [01]
 for el in list:
     #some Work
