@@ -16,6 +16,9 @@ Binary Mode
     wb:  Write a binary file
     ab:  Append a binary file
 
+    colser movement
+        seek(0,0)
+
 """
 file=open('dat.txt','w')
 """
@@ -40,6 +43,6 @@ file.close()
 file=open('mydata.txt','w+')
 st='ABCDEF'
 file.write(st)
-file.seek(0,0)
+file.seek(0,0) #file colser move to strat.
 print(file.read())
 file.close()

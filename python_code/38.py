@@ -29,5 +29,5 @@ class student:
         print(self)
         print("adding new name in db.")
 
-s1=student()
+s1=student('Sunny',65)
 print(s1.name,s1.marks)

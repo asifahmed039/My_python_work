@@ -4,8 +4,13 @@
             {'7235' digit}   {'71.23' not digit}
 
     (02)isdecimal()
+    
     (03)isnumeric()
+
     (04)isascii()
+                    ABC.....  abc..... 1234....  #@%$^&..... 
+            other than english not ascii
+
     (05)isalnum()
 
     """
@@ -28,4 +33,6 @@ print(s.isdecimal(),s)
 
 s2='-3.75ab'
 print(s2.isdecimal())
+
+
 

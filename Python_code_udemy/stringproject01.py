@@ -17,3 +17,4 @@ page=url[url.find('/',dot2):]
 print(protocol)
 print(domain)
 print(page)
+

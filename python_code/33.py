@@ -7,7 +7,7 @@
 
 
 """
-#Open,Read & closed file:-
+#Open,Read & closed file:- 
 """
     Open,Read & closed file:-
 

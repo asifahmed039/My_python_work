@@ -1,1 +1,1 @@
-range()
+del a1.balance

@@ -1,5 +1,18 @@
 #[83]Palindrome string
 """
+    palidrome word:
+        Madam   madaM
+        Malayalam  
+    
+    palidrome Phrase:
+        Name now one man   namenoonemaN
+        Never odd or even
+        Was it a car or a cat i saw
+    
+    Making a palindrome
+     orginal string + reverse string
+     
+
 
 """
 str='Race Car'

@@ -2,10 +2,13 @@
 """
     Text file:-
             only perform sequential access 
+            text file are always in string format.
 
             data.txt (human readable)    cat Data.txt in terminal
     Binary file:-
             sequential as well as random accessd 
+
+            images file are store in binary format.
 
             logo.png file  (logo of python)  binary data (not human readable )
 

@@ -4,6 +4,7 @@
         [01]Read
         [02]Write
         [03]Append
+    open(),read(),close()
     
 """
 file=open('data.txt','r')

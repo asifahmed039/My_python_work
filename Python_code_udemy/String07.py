@@ -52,6 +52,7 @@ print(s.rstrip('!'))
 #strip()
 s='^hello^'
 print(s.strip('^'))
+
 """
         #!hello  $ * how remove 
 

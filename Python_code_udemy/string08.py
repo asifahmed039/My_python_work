@@ -1,4 +1,4 @@
-#Joining and Splitting
+#[78]Joining and Splitting
 """
     [01]replace(old,new,count)
     [02]join(stringNmae)
