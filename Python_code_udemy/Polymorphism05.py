@@ -16,6 +16,9 @@
         vector addition not possible with addition operation 
          v1+v2   
          so, Write class for vector addition
+         v1=(1,3)  and v2=(3,5)
+         v3=v1+v2=(4,8)
+         
         
 """
 class Vector:
@@ -34,4 +37,5 @@ v1=Vector(3,1)
 v2=Vector(2,5)
 v3=v1+v2
 print('vector sum:=',v3)
+print(v1)
         
