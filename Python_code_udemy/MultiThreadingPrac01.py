@@ -1,13 +1,14 @@
 from threading import *
 from time import *
 
-def display():
-    for i in range(3):
-        print("System")
+class Number(Thread):
+    def display(self):
+        for i in range(5):
+            print("hello")
 
-t=Thread(target=display)
-t.start()
-for i in range(5):
-    print(i)
-
-t.join()
+n=Number()
+n.start()
+for i in range(6):
+    print("mr.bean")
+    sleep(1.5)
+n.join()
